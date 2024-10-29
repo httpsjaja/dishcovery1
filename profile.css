@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the top */
+    height: 100vh;
+    padding-top: 20px; /* Add a small top padding */
+}
+
+.profile-container {
+    padding: 0px; /* Adjusted padding to fit content */
+    border-radius: 0px; /* Corrected the border-radius */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Set a fixed width for the container */
+}
+
+.profile-box {
+    margin-top: 20px;
+}
+
+.username-display {
+    display: flex;
+   
+    gap: 10px;
+}
+
+.username-display button,
+.username-input button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.username-input input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.username-input {
+    margin-top: 10px;
+}
